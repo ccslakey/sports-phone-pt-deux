@@ -14,9 +14,9 @@ run in terminal:
   $ ngrok http 4567
   
   
-Set up twilio recieve sms webhook in your app: i.e. https://www.twilio.com/console/sms/services/<YOUR APP ID HERE>
+Set up your twilio app to recieve sms in your twilio console 
   
-  -Set request url to process incoming messages. Mine looks like http://21b5aecc.ngrok.io/recieve_sms   
+from there, you can set the request url to process incoming messages. Mine looks like http://21b5aecc.ngrok.io/recieve_sms   
   
   
 Text your twilio number anything and the app will ping you back with the 3 latest article headlines from ESPN's RSS feed, along with a shortened link and sentiment analysis.
